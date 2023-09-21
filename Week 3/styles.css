@@ -1,0 +1,91 @@
+nav { /* nav bar background box*/
+    background-color: #242424;
+    color: #ffffff;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li { /* nav bar spacing */
+    display: inline;
+    margin-right: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.centered-image { /* REQUIRED: centering image */
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+/* page 2 stuff */
+.content {
+    background-color: #a09300;
+    border: 1px solid #000000;
+}
+
+
+.content p {
+    column-count: 2;
+    column-gap: 10px;
+    column-rule:#242424 2px solid;
+}
+/* page 3 stuff */
+
+
+.form {
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.form input, .form select {
+    transition: border-color 0.7s ease-in-out;
+}
+
+.form input:focus, .form select:focus {
+    border-color: #007bff;
+}
+
+
+.button {
+    background-color: #858585;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out; }
+
+/* hover animation */
+.button:hover {
+    transform: scale(1.1); /* 10% increase on hover */
+}
+
+ul{
+    height:25px;
+    transition: 1s;
+}
+ul:hover
+{
+    height:50px;
+    
+}
+
+
+
+

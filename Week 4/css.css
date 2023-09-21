@@ -1,0 +1,34 @@
+body { /* Centers the whole game I guess task 4? Not listed but looks better centered */
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#game-container {
+    margin-top: 20px;
+}
+
+#fruit-pic { /* Task 2, although the fruit looks silly this stretched*/
+    width: 50%;
+    height: 200px;
+    padding: 20px;
+}
+
+#cor-incor { /* Task 3 */
+    font-family: fantasy;
+}
+
+.fruit-button { /* Task 4 */
+    width: 200px;
+    height: 50px;
+    font-size: medium;
+    margin: 10px;
+}
+
+#play-again { /* Task 6 */
+    width: 200px;
+    height: 30px;
+    font-size: medium;
+    margin-top: 20px;
+}
